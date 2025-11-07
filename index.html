@@ -28,13 +28,36 @@
 		</style>
 	</head>
 
-	<body class="min-h-dvh bg-white text-neutral-800 font-sans"> 
+	<body class="w-screen min-h-dvh"> 
 		<header class="w-full flex items-center justify-between px-6 py-4 border-b border-neutral-200">
-			<div class="flex items-center gap-2"></div>
-			<img src="images/ic-logo.svg" class="h-8" alt="logo">
+			<div class="hidden md:flex items-center gap-2">
+				<img src="images/ic-logo.svg" class="h-10" alt="logo">
+				<span class="font-semibold text-2xl tracking-wide">COLMAR</span>
+				<span class="text-neutral-500 text-xl">ACADEMY</span>
+			</div>
+
+			<!-- Mobile -->
+
+			<div class="md:hidden w-full h-10 flex items-center justify-center gap-14">
+				<img src="images/ic-logo.svg" class="h-10" alt="ic-logo">
+				<img src="images/ic-on-campus.svg" class="h-10" alt="ic-on-campus">
+				<img src="images/ic-online.svg" class="h-10" alt="ic-online">
+				<img src="images/ic-login.svg" class="h-10" alt="ic-login">
+			</div>
+
+			<!-- Desktop -->
+
+			<nav class="hidden md:flex gap-6 text-neutral-700 font-medium">
+				<a href="#" class="hover:text-black">On campus</a>
+				<a href="#" class="hover:text-black">Online</a>
+				<a href="#" class="hover:text-black">For companies</a>
+				<a href="#" class="hover:text-black">Sign in</a>
+			</nav>
+
 
 		</header>
 
+		
 		
 		
 
