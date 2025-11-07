@@ -28,12 +28,12 @@
 		</style>
 	</head>
 
-	<body class="w-screen min-h-dvh"> 
+	<body class="w-screen min-h-dvh bg-white"> 
 		<header class="w-full flex items-center justify-between px-6 py-4 border-b border-neutral-200">
-			<div class="hidden md:flex items-center gap-2">
+			<div class="hidden md:flex items-center">
 				<img src="images/ic-logo.svg" class="h-10" alt="logo">
-				<span class="font-semibold text-2xl tracking-wide">COLMAR</span>
-				<span class="text-neutral-500 text-xl">ACADEMY</span>
+				<span class="text-2xl tracking-wide">COLMAR</span>
+				<span class="text-neutral-500 text-2xl">ACADEMY</span>
 			</div>
 
 			<!-- Mobile -->
@@ -47,7 +47,7 @@
 
 			<!-- Desktop -->
 
-			<nav class="hidden md:flex gap-6 text-neutral-700 font-medium">
+			<nav class="hidden md:flex gap-6 text-neutral-700">
 				<a href="#" class="hover:text-black">On campus</a>
 				<a href="#" class="hover:text-black">Online</a>
 				<a href="#" class="hover:text-black">For companies</a>
@@ -57,10 +57,10 @@
 
 		</header>
 	
-		<section class="bg-neutral-100 w-full px-6 py-10 md:flex md:items-center md:gap-10">
+		<section class="bg-neutral-100 w-full px-6 py-8 md:flex md:items-center md:gap-10">
   			<img src="./images/banner.jpg" class="w-full md:w-3/5 rounded" alt="Banner"/>
 				<div class="mt-6 md:mt-0 md:w-2/5 flex flex-col gap-4">
-    				<h1 class="text-4xl font-bold">Learn something new everyday</h1>
+    				<h1 class="text-4xl">Learn something new everyday</h1>
     				<p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit exercitationem sint eligendi amet quia aliquid omnis laborum ad iure nisi!
     				<button class="bg-neutral-800 text-white py-3 mt-6 mb-8 rounded w-full hover:bg-neutral-700">Start here</button>
   				</div>
@@ -69,16 +69,56 @@
 		<section class="bg-neutral-200 grid md:grid-cols-5 px-6 py-8 gap-6">
 			<article class="hidden md:block md:col-span-3">
 				<img src="images/information-main.jpg " class="w-full rounded" alt="information-main">
-				<h2 class="text-3xl font-semibold mt-8">It doesn't hurt to keep practicing</h2>
+				<h2 class="text-3xl font-bold mt-8">It doesn't hurt to keep practicing</h2>
 				<p class="mt-6 mb-6 text-neutral-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste maxime corrupti aliquid voluptatem! Aperiam esse iste tenetur, tempora quibusdam numquam.</p>
 				<p class="mb-8 text-neutral-800 ">Emanuel, Sr Strategist at Hiring.com</p>
 			</article>
 
 			<aside class="md:col-span-2 flex-col gap-8">
-				<div class="flex flex-col md:flex-row gap-4 p-4 rounded hover:bg-neutral-50">
-					<img src="images/information-orientation.jpg" 
-					class="hidden md:block w-2/5 rounded" alt="information-orientation">
+				<div class="flex flex-col md:flex-row gap-4 pl-4 pb-4 pr-4 rounded hover:bg-neutral-50">
+					<img src="images/information-orientation.jpg" class="hidden md:block w-2/5 rounded" alt="information-orientation">
+
+					<img src="images/information-orientation-mobile.jpg" class="md:hidden w-full rounded" alt="information-orientation-mobile">
+
+					<div class="md:w-3/5">
+						<h3 class="font-semibold text-xl mt-4" >Orientaton date</h3>
+						<p class="text-neutral-600">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+						<a href="#" class="text-blue-500 ">Read more</a>
+					
+					</div>
 				</div>
+
+				<div class="flex flex-col md:flex-row gap-4 p-4 rounded hover:bg-neutral-50">
+					<img src="images/information-campus.jpg" class="hidden md:block w-2/5 rounded" alt="information-campus">
+
+					<img src="images/information-campus-mobile.jpg" class="md:hidden w-full rounded" alt="information-campus-mobile">
+
+
+					<div class="md:w-3/5">
+						<h3 class="font-semibold text-xl mt-4" >Our campus</h3>
+						<p class="text-neutral-600">Find which campus is close by you</p>
+						<a href="#" class="text-blue-500 ">Read more</a>
+					
+					</div>
+				</div>
+
+				<div class="flex flex-col md:flex-row gap-4 p-4 rounded hover:bg-neutral-50">
+					<img src="images/information-guest-lecture.jpg" class="hidden md:block w-2/5 rounded" alt="information-guest-lecture">
+
+					<img src="images/information-guest-lecture-mobile.jpg" class="md:hidden w-full rounded" alt="information-guest-lecture-mobile">
+
+					<div class="md:w-3/5">
+						<h3 class="font-semibold text-xl mt-4" >Orientaton date</h3>
+						<p class="text-neutral-600">Join a keynote with Oliver Sack about music in medical treatment</p>
+						<a href="#" class="text-blue-500 ">Read more</a>
+					
+					</div>
+				</div>
+
+
+
+				
+			
 			</aside>
 
 		</section>
